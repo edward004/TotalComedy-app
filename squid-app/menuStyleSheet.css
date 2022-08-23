@@ -1,0 +1,63 @@
+/* main defult page start */ 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100px;
+}
+
+/* title text */
+.title {
+margin-left: 1vw;
+padding-top: 0vh;
+font-size: 3.5vw;
+font-family:verdana; 
+color: black;
+}
+
+/* menu selection text placment */
+.menu{
+margin: auto;
+}
+
+
+/* body size and colour */
+body {  
+height: 100%;
+width: 100%;
+margin-top: 5%;
+background-size: cover;
+font-family: sans-serif;
+}
+
+/* top box */
+.header-box{  
+background-color: white;
+position: absolute;  
+left: 0;  
+right: 0;  
+top: 0;
+width: 100%;
+height: 10vh;  
+display: flex;
+align-items: center;
+border-bottom: 1.25px solid #DCDCDC;
+border-top: 1.25px solid #DCDCDC;
+}
+
+/* options box */
+.options-box{  
+display: inline; 
+}
+
+.li-list{  
+margin-right: 3vw; 
+color: #808080; 
+text-decoration: none;
+font-size: 1.5vw;
+} 
+
+/* menu hover colour change */
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
