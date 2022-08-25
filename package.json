@@ -1,5 +1,35 @@
 {
   "dependencies": {
-    "@microsoft/fast-components": "^2.30.6"
-  }
+    "@microsoft/fast-components": "^2.30.6",
+    "@microsoft/fast-element": "^1.10.5",
+    "@types/express": "^4.17.13",
+    "@types/typescript": "^2.0.0",
+    "express": "^4.18.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  },
+  "name": "total-comedy-app",
+  "description": "The main app files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edward004/TotalComedy-app.git"
+  },
+  "author": "Edward Henson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edward004/TotalComedy-app/issues"
+  },
+  "homepage": "https://github.com/edward004/TotalComedy-app#readme"
 }
