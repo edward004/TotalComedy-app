@@ -1,5 +1,4 @@
-# squid-app
-The main app files
+# TotalComedy-app
 
 
 Total Comedy, a comdey platform for all creators
