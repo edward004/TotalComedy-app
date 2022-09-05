@@ -1,4 +1,12 @@
-class AppRoute {
+import { DesignSystem } from "@microsoft/fast-foundation"
+import { allComponents } from '@microsoft/fast-components';
+import React = require("react");
+
+DesignSystem.getOrCreate().register(
+    Object.values(allComponents).map(definition => definition())
+);
+
+export class AppRoute {
 
     private test = [];
 
@@ -7,9 +15,12 @@ class AppRoute {
         
     }
 
-    render(){
+    render() {
         return(
-        <div>Hello world</div>
+        <div>
+            <div>Hello world</div>
+            <fast-button></fast-button>
+        </div>
         );
     }
 

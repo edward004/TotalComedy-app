@@ -6,7 +6,8 @@ var AppRoute = /** @class */ (function () {
     AppRoute.prototype.func = function () {
     };
     AppRoute.prototype.render = function () {
-        return (React.createElement("div", null, "Hello world"));
+        return (React.createElement("div", null,
+            React.createElement("div", null, "Hello world")));
     };
     return AppRoute;
 }());
